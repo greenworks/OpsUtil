@@ -41,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ssh_wrap.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ssh_wrap.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/util/ssh/ssh_wrap.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="24" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+            <state line="17" column="42" selection-start="287" selection-end="287" vertical-scroll-proportion="0.67792207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_clone_haatopia.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web_clone_haatopia.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/util/ssh/web_clone_haatopia.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.35416666">
+            <state line="15" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,9 +130,9 @@
         <option value="$PROJECT_DIR$/vendor/plugins/net_connectors/lib/net_connectors.rb" />
         <option value="$PROJECT_DIR$/app/util/ssh_util.rb" />
         <option value="$PROJECT_DIR$/app/models/bss_inspector.rb" />
-        <option value="$PROJECT_DIR$/lib/util/ssh/ssh_wrap.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/util/ssh/web_clone_haatopia.rb" />
+        <option value="$PROJECT_DIR$/lib/util/ssh/ssh_wrap.rb" />
       </list>
     </option>
   </component>
@@ -203,6 +203,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpsUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpsUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpsUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpsUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -217,7 +253,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Ruby.web_clone_haatopia">
+  <component name="RunManager" selected="Ruby.ssh_util_wrap">
     <configuration default="false" name="ssh_util_wrap" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="OpsUtil" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -512,11 +548,11 @@
       <item index="1" class="java.lang.String" itemvalue="Ruby.bss_inspector" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.test_net_connectors" />
       <item index="3" class="java.lang.String" itemvalue="Ruby.ssh_util" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.web_clone_haatopia" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Development: OpsUtil" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: OpsUtil" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: OpsUtil" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: OpsUtil" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.web_clone_haatopia" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -568,15 +604,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17237009" sideWeight="0.4799253" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17136812" sideWeight="0.5515395" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17136812" sideWeight="0.5515395" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47791165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44846052" sideWeight="0.99496645" order="2" side_tool="false" content_ui="tabs" x="1568" y="608" width="1578" height="598" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44846052" sideWeight="0.99496645" order="2" side_tool="false" content_ui="tabs" x="1568" y="608" width="1578" height="598" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -684,11 +720,6 @@
         <state line="0" column="62" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/util/ssh/ssh_wrap.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="33" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" />
@@ -718,7 +749,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/util/ssh/web_clone_haatopia.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.35416666">
+        <state line="15" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/util/ssh/ssh_wrap.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="287" selection-end="287" vertical-scroll-proportion="0.67792207">
           <folding />
         </state>
       </provider>

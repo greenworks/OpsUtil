@@ -32,7 +32,7 @@ class SSHWrap
 
 end
 
-ssh = SSHWrap.new("c:\\myprojects\\nodes\\\lab-1-haatopia-node\\").session
+ssh = SSHWrap.new("nodes\\\lab-1-haatopia-node\\").session
 ssh.exec!("find /media/. -name 'configuration.php' -exec  grep -ln '$db' '{}' \\;") do |channel, stream, data|
           puts data if stream == :stdout
         end
