@@ -1,0 +1,15 @@
+ssh:
+  host: experttag.servebbs.com
+  port: 2200
+  #user: ubuntu
+  #password:
+  #keyfile:
+  #knownhost:
+
+git:
+  base: /repos/haatopia-repos/
+  user: git
+  #password:
+  #keyfile:
+
+

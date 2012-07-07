@@ -1,0 +1,15 @@
+# configure you ssh access and credentions
+ssh:
+  host: 192.168.2.20
+  #port: 2200
+  user: ssimar
+  #password:
+  #keyfile:
+  knownhost:  C:\Users\ssimar\.ssh\known_hosts
+# configure your git repository access and base details
+git:
+  base: /repos/haatopia-repos/
+  user: git
+  #password:
+  #keyfile:
+
